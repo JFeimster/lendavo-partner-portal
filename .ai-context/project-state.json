@@ -1,7 +1,13 @@
 {
   "project_name": "Lendavo Partner Portal",
-  "version": "1.0.0",
-  "status": "production_ready_and_deployed",
+  "version": "1.0.1",
+  "status": "production_live",
+  "live_deployment": "https://lendavo-partner-portal.vercel.app/",
+  "github_repository": "https://github.com/JFeimster/lendavo-partner-portal",
+  "affiliate_routing": {
+    "primary_link": "https://bit.ly/creditsuiteaffiliate",
+    "backup_link": "et128.isrefer.com/go/aff/Feimster/"
+  },
   "active_stack": {
     "css": "Tailwind (via CDN)",
     "fonts": ["Space Grotesk", "Inter"],
@@ -12,7 +18,7 @@
   },
   "completed_components": {
     "frontend": [
-      "public/index.html (Core Protocol)",
+      "public/index.html (Core Protocol - CTA Wired)",
       "public/success.html (Bridge Page & Swipe Assets)",
       "public/css/styles.css (Design System Extract)",
       "public/js/app.js (Calculator & System Pulses)",
