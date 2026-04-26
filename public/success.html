@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Protocol Initiated | Lendavo Partner</title>
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#050505">
+
     <script>
         tailwind.config = {
             theme: {
@@ -30,6 +40,8 @@
 </head>
 <body class="antialiased selection:bg-brand-accent selection:text-black min-h-screen flex flex-col">
 
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <nav class="w-full z-50 glass-panel border-b border-white/10 relative">
         <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
             <div class="font-display font-bold text-xl tracking-widest text-white">LENDAVO <span class="text-brand-accent">PROTOCOL</span></div>
@@ -121,7 +133,8 @@ DM me "SCAN" and I'll send you my private access link.</textarea>
     </main>
 
     <footer class="py-6 text-center border-t border-white/5 bg-brand-dark relative z-10">
-        <p class="text-xs text-gray-600 font-mono">&copy; 2026 Lendavo Protocol. All systems nominal.</p>
+        <p class="text-xs text-gray-600 font-mono mb-3">&copy; 2026 Lendavo Protocol. All systems nominal.</p>
+        <a href="docs/legal.html" class="text-xs text-gray-500 hover:text-white transition-colors duration-300">[Legal & Disclosures]</a>
     </footer>
 
     <script>
@@ -130,17 +143,14 @@ DM me "SCAN" and I'll send you my private access link.</textarea>
             const button = document.getElementById(buttonId);
             const originalText = button.innerText;
 
-            // Select and copy
             copyText.select();
-            copyText.setSelectionRange(0, 99999); // For mobile devices
+            copyText.setSelectionRange(0, 99999); 
             navigator.clipboard.writeText(copyText.value);
 
-            // Visual feedback
             button.innerText = "COPIED!";
             button.classList.add('bg-green-500', 'text-white');
             button.classList.remove('bg-brand-accent', 'bg-white', 'text-black');
 
-            // Reset after 2 seconds
             setTimeout(() => {
                 button.innerText = originalText;
                 button.classList.remove('bg-green-500', 'text-white');
