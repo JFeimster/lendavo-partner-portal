@@ -7,6 +7,10 @@
 **🌍 Live Production Deployment:** [https://lendavo-partner-portal.vercel.app/](https://lendavo-partner-portal.vercel.app/)  
 **📂 GitHub Repository:** [https://github.com/JFeimster/lendavo-partner-portal](https://github.com/JFeimster/lendavo-partner-portal)
 
+## 🖥️ Protocol Interface
+
+<img width="1872" height="1170" alt="Lendavo Partner Protocol Luxury-Futurism Interface" src="https://github.com/user-attachments/assets/02880771-75d1-4c13-b77c-31866d4d5d2b" />
+
 A conversion-optimized, production-ready frontend ecosystem designed for the **Lendavo Partner Protocol**. This repository houses the architecture for a high-converting lead generation asset that pivots away from traditional "affiliate marketing" and positions the user as an Elite Structural Architect.
 
 ## 🦅 Strategic Imperative
