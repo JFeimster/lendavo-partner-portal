@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protocol Initiated | Lendavo Partner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Space Grotesk', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            dark: '#050505',
+                            card: '#111111',
+                            accent: '#D4AF37', 
+                            neon: '#00F0FF'  
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="antialiased selection:bg-brand-accent selection:text-black min-h-screen flex flex-col">
+
+    <nav class="w-full z-50 glass-panel border-b border-white/10 relative">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="font-display font-bold text-xl tracking-widest text-white">LENDAVO <span class="text-brand-accent">PROTOCOL</span></div>
+            <div class="flex items-center gap-2 text-xs font-mono text-brand-neon">
+                <span class="w-2 h-2 rounded-full bg-brand-neon activity-pulse"></span>
+                SYSTEM NOMINAL
+            </div>
+        </div>
+    </nav>
+
+    <main class="flex-grow relative pt-12 pb-24 px-6 overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-brand-card via-brand-dark to-brand-dark opacity-50 z-0"></div>
+        
+        <div class="max-w-5xl mx-auto relative z-10">
+            
+            <div class="mb-12 border-l-4 border-brand-accent pl-6">
+                <h1 class="font-display text-4xl md:text-5xl font-bold tracking-tight mb-2 text-white">
+                    Access Granted.
+                </h1>
+                <p class="text-gray-400 text-lg">You are now an authorized Structural Architect.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-5 gap-8">
+                
+                <div class="lg:col-span-3 space-y-8">
+                    <div class="glass-panel p-2 rounded-2xl border-brand-neon/20 shadow-[0_0_30px_rgba(0,240,255,0.05)]">
+                        <div class="relative w-full aspect-video bg-black rounded-xl overflow-hidden group cursor-pointer border border-white/5">
+                            <img src="https://via.placeholder.com/1280x720/0a0a0a/333?text=Standby+for+Video+Briefing" alt="Video Briefing" class="w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity duration-300">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-16 h-16 rounded-full bg-brand-accent/20 flex items-center justify-center backdrop-blur-sm border border-brand-accent/50 group-hover:scale-110 transition-transform duration-300">
+                                    <div class="w-0 h-0 border-t-8 border-t-transparent border-l-[14px] border-l-brand-accent border-b-8 border-b-transparent ml-1"></div>
+                                </div>
+                            </div>
+                            <div class="absolute top-4 left-4 bg-black/80 px-3 py-1 rounded text-xs font-mono text-gray-300 border border-white/10">
+                                01: THE 2026 MANDATE
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h2 class="font-display text-2xl font-bold text-white mb-2">Watch This Briefing Immediately</h2>
+                            <p class="text-gray-400 text-sm leading-relaxed">Do not share your link until you understand the "Decoupling" mechanism. This 4-minute briefing explains exactly how to position the AI Diagnostic to your clients so you are seen as a savior, not a salesperson.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-2 space-y-6">
+                    
+                    <div class="glass-panel p-6 rounded-2xl bento-hover">
+                        <div class="text-brand-neon text-sm font-mono mb-2">STEP 01</div>
+                        <h3 class="font-bold text-white mb-4">Your Deployment Link</h3>
+                        <div class="flex gap-2">
+                            <input type="text" id="partnerLink" value="https://lendavo.com/ai-scan/p/your-id" readonly class="w-full bg-black/50 border border-white/10 rounded px-3 py-2 text-sm text-gray-300 font-mono outline-none">
+                            <button onclick="copyToClipboard('partnerLink', 'linkBtn')" id="linkBtn" class="bg-white text-black px-4 py-2 rounded text-sm font-bold hover:bg-brand-accent transition-colors shrink-0">
+                                COPY
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="glass-panel p-6 rounded-2xl bento-hover border-brand-accent/30 shadow-[0_0_20px_rgba(212,175,55,0.05)]">
+                        <div class="text-brand-accent text-sm font-mono mb-2">STEP 02</div>
+                        <h3 class="font-bold text-white mb-2">Deploy Immediate Asset</h3>
+                        <p class="text-xs text-gray-400 mb-4">Post this to LinkedIn or your private community right now to trigger immediate curiosity.</p>
+                        
+                        <div class="bg-black/50 border border-white/5 rounded p-4 mb-4 relative">
+                            <textarea id="swipeCopy" readonly class="w-full bg-transparent text-sm text-gray-300 resize-none h-32 outline-none">Traditional banks are now rejecting 54% of small business applications due to algorithmic tightening. 
+
+If you are using your personal SSN to guarantee business debt, your family's assets are exposed. 
+
+I just secured access to the Lendavo Protocol—a 60-second AI diagnostic that finds "Invisible Landmines" on your business profile so you can decouple your personal liability from your corporate EIN. 
+
+DM me "SCAN" and I'll send you my private access link.</textarea>
+                        </div>
+                        <button onclick="copyToClipboard('swipeCopy', 'swipeBtn')" id="swipeBtn" class="w-full bg-brand-accent text-black font-bold py-3 rounded hover:bg-white transition-colors text-sm">
+                            COPY SWIPE FILE
+                        </button>
+                    </div>
+
+                    <div class="glass-panel p-6 rounded-2xl bento-hover">
+                        <div class="text-gray-500 text-sm font-mono mb-2">STEP 03</div>
+                        <h3 class="font-bold text-white mb-2">Enter Command Center</h3>
+                        <p class="text-xs text-gray-400 mb-4">Track every scan, approval, and commission payout in real-time.</p>
+                        <a href="#" class="block text-center border border-white/20 text-white hover:bg-white hover:text-black transition-colors py-3 rounded text-sm font-bold">
+                            ACCESS DASHBOARD
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-6 text-center border-t border-white/5 bg-brand-dark relative z-10">
+        <p class="text-xs text-gray-600 font-mono">&copy; 2026 Lendavo Protocol. All systems nominal.</p>
+    </footer>
+
+    <script>
+        function copyToClipboard(inputId, buttonId) {
+            const copyText = document.getElementById(inputId);
+            const button = document.getElementById(buttonId);
+            const originalText = button.innerText;
+
+            // Select and copy
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // For mobile devices
+            navigator.clipboard.writeText(copyText.value);
+
+            // Visual feedback
+            button.innerText = "COPIED!";
+            button.classList.add('bg-green-500', 'text-white');
+            button.classList.remove('bg-brand-accent', 'bg-white', 'text-black');
+
+            // Reset after 2 seconds
+            setTimeout(() => {
+                button.innerText = originalText;
+                button.classList.remove('bg-green-500', 'text-white');
+                if(buttonId === 'swipeBtn') {
+                    button.classList.add('bg-brand-accent', 'text-black');
+                } else {
+                    button.classList.add('bg-white', 'text-black');
+                }
+            }, 2000);
+        }
+    </script>
+</body>
+</html>
