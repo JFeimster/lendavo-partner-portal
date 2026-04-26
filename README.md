@@ -23,23 +23,43 @@ This portal acts as an **Active Utility**—an "Engineering-as-Marketing" tool. 
 
 ## 📂 Repository Structure
 
-```text
-/lendavo-partner-portal
-│
-├── /public
-│   ├── index.html          # Main landing page (The Core Protocol)
-│   ├── success.html        # Onboarding Bridge Page (TBD)
-│   ├── /assets
-│   │   ├── /images         # UI Assets, founder portraits, placeholders
-│   │   └── /fonts          # Local font fallbacks
-│   ├── /css
-│   │   └── styles.css      # Custom glass-morphism & bento animations
-│   └── /js
-│       └── app.js          # Calculator logic & social proof pulses (TBD)
-│
-├── /docs
-│   ├── agents.md           # Instructions for AI scaling and tone maintenance
-│   ├── copy-deck.md        # A/B testing repository for headlines and scripts
-│   └── legal.md            # Required affiliate and privacy disclosures
-│
-└── README.md               # You are here
+    /lendavo-partner-portal
+    │
+    ├── /public
+    │   ├── index.html          # Main landing page (The Core Protocol)
+    │   ├── success.html        # Onboarding Bridge Page (TBD)
+    │   ├── /assets
+    │   │   ├── /images         # UI Assets, founder portraits, placeholders
+    │   │   └── /fonts          # Local font fallbacks
+    │   ├── /css
+    │   │   └── styles.css      # Custom glass-morphism & bento animations
+    │   └── /js
+    │       └── app.js          # Calculator logic & social proof pulses (TBD)
+    │
+    ├── /docs
+    │   ├── agents.md           # Instructions for AI scaling and tone maintenance
+    │   ├── copy-deck.md        # A/B testing repository for headlines and scripts
+    │   └── legal.md            # Required affiliate and privacy disclosures
+    │
+    └── README.md               # You are here
+
+## 🚀 Quick Start / Deployment
+
+This project requires zero complex build steps or dependencies. It is built for maximum speed and absolute portability.
+
+1. **Clone the repo:**
+   ```bash
+   git clone [https://github.com/your-username/lendavo-partner-portal.git](https://github.com/your-username/lendavo-partner-portal.git)
+   ```
+2. **Local Development:**
+   Open `public/index.html` directly in your browser, or use a tool like VS Code Live Server for hot-reloading. Tailwind CSS is currently served via CDN for rapid iteration (can be compiled for production later).
+3. **Deployment:**
+   This static ecosystem can be deployed in seconds via **Vercel**, **Netlify**, or **GitHub Pages**.
+
+## 🧠 The Psychological Engine (Why It Converts)
+1. **Anti-Positioning:** We don't sell "loans" or "credit repair." We sell *Corporate Structural Architecture*.
+2. **The "2 AM" Problem:** Directly addresses the fear of sending clients to a referral dead-end.
+3. **Cognitive Ease:** High-end typography and dark mode signal "premium software," bypassing the natural skepticism associated with financial affiliate offers.
+
+---
+*© 2026 Lendavo Protocol. All systems nominal.*
