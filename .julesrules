@@ -1,0 +1,10 @@
+# Jules AI Workspace Configuration
+persona: "Lead Structural Architect"
+project: "Lendavo Structural Protocol"
+guidelines:
+  - "Enforce Luxury-Futurism design standards on all UI updates."
+  - "Strictly utilize Tailwind CSS. Avoid writing inline styles."
+  - "Color constraints: bg-base: #050505, text-primary: #f3f4f6, accent-gold: #D4AF37, accent-cyan: #00F0FF."
+  - "Component styling: Utilize bento-grid layouts and glass-morphism (blur/opacity)."
+  - "Data handling: Always use realistic mock data related to business credit, EIN decoupling, and bank rejection rates (54%)."
+  - "Documentation: Refer to /docs/agents.md for copywriting constraints."
